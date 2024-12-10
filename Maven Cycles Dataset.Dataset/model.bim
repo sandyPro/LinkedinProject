@@ -1,0 +1,1793 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Maven Cycles Age Group\",\"Maven Cycles Gender\",\"Maven Cycles Product Categories\",\"Maven Cycles Product Subcategories\",\"Maven Cycles Products\",\"Maven Cycles Regions\",\"Maven Cycles Calendar\",\"Maven Cycles Sales\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.122.1066.0 (23.10)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "af1b12d8-8165-465b-ad04-34b8d8c416f1",
+        "fromColumn": "Transaction_Date",
+        "fromTable": "Maven Cycles Sales",
+        "toColumn": "Date",
+        "toTable": "Maven Cycles Calendar"
+      },
+      {
+        "name": "db036d7b-4b04-44b8-ad05-6794d1d4cac6",
+        "fromColumn": "Age_Group_Key",
+        "fromTable": "Maven Cycles Sales",
+        "toColumn": "Age Group Key",
+        "toTable": "Maven Cycles Age Group"
+      },
+      {
+        "name": "f141b52b-dd8c-4fe7-87f0-ee019e2ffd9d",
+        "fromColumn": "Customer_Gender_Key",
+        "fromTable": "Maven Cycles Sales",
+        "toColumn": "Gender Key",
+        "toTable": "Maven Cycles Gender"
+      },
+      {
+        "name": "d516bbb8-814f-4842-95fe-84c6538e1c4f",
+        "fromColumn": "Product_Key",
+        "fromTable": "Maven Cycles Sales",
+        "toColumn": "Product Key",
+        "toTable": "Maven Cycles Products"
+      },
+      {
+        "name": "2885534f-9f31-492c-8eaa-5bbd9e51dbb0",
+        "fromColumn": "Product Category Key",
+        "fromTable": "Maven Cycles Product Subcategories",
+        "toColumn": "Product Category Key",
+        "toTable": "Maven Cycles Product Categories"
+      },
+      {
+        "name": "f956596e-d594-4658-a363-6cb708cc986b",
+        "fromColumn": "Product Subcategory Key",
+        "fromTable": "Maven Cycles Products",
+        "toColumn": "Product Subcategory Key",
+        "toTable": "Maven Cycles Product Subcategories"
+      },
+      {
+        "name": "49a70db3-5e2e-4e4b-ae61-c82f03fc4abf",
+        "fromColumn": "Region_Key",
+        "fromTable": "Maven Cycles Sales",
+        "toColumn": "Sales Territory Key",
+        "toTable": "Maven Cycles Regions"
+      },
+      {
+        "name": "f3cff162-32b1-49ca-a189-7a632066e9d5",
+        "fromColumn": "Stock_ Date",
+        "fromTable": "Maven Cycles Sales",
+        "isActive": false,
+        "toColumn": "Date",
+        "toTable": "Maven Cycles Calendar"
+      }
+    ],
+    "sourceQueryCulture": "en-CA",
+    "tables": [
+      {
+        "name": "DateTableTemplate_cfd7b613-8b4c-4063-975f-58bbaa8776dd",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "8b1bbe9c-6415-4fe2-9417-f7dcac3dd7ef",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "b5724df9-f657-4872-a036-8424e2d0c22b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "41549357-fbce-49b3-bca8-720848ef4c4b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "e8e35be8-207b-4da6-bf62-dd796b6dfd20",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "d4564bcc-1500-450b-a6a3-67579d4e7a68",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "20c44a6b-b0a6-4f85-94e3-59d9ecd5a28b",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "b44ffee6-6518-45b8-8e11-28e166ce791d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "2c026b3f-f4af-44a1-add0-8b03f42e15af",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "b5c89080-2831-4eb7-8416-92ab3c019846",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "359e2c7f-fa69-4010-bba5-504e2f263c37",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "64f74c80-1e62-4388-a045-ef6bb8119679",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "74911ee6-2e37-4ac7-91ad-bb1a215579fb"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "c804e53c-5f1d-4ab2-993b-71ffb1399033",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_cfd7b613-8b4c-4063-975f-58bbaa8776dd",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maven Cycles Products",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Product Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "dd12d529-2eae-45dd-9377-9f27f126db1b",
+            "sourceColumn": "Product Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product Subcategory Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "242452f9-1fac-4f0c-a302-5cb489089fce",
+            "sourceColumn": "Product Subcategory Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product New",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2c81a072-e6c4-46b4-8436-f466dfe46b69",
+            "sourceColumn": "Product New",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Unit Cost",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "01955c03-87d3-4954-8465-996aa6447917",
+            "sourceColumn": "Unit Cost",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Unit Price",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "98e5c75d-2254-4488-a534-694d8eaf2fcb",
+            "sourceColumn": "Unit Price",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Price Range",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "df020c3a-b358-410e-af7b-96c6ee302068",
+            "sourceColumn": "Price Range",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "cb2c2ce3-b41e-4e78-9bc0-39ca4c258f6b",
+        "partitions": [
+          {
+            "name": "Maven Cycles Products",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Power BI\\Maven Cycles Raw Data Files\\mvncycprod.xlsx\"), null, true),",
+                "    mvncycprod_Sheet = Source{[Item=\"mvncycprod\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(mvncycprod_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Export: MvN10-101-85764\", type any}, {\"Column2\", type any}, {\"Column3\", type text}, {\"Column4\", type any}, {\"Column5\", type any}}),",
+                "    #\"Removed Top Rows\" = Table.Skip(#\"Changed Type\",5),",
+                "    #\"Promoted Headers1\" = Table.PromoteHeaders(#\"Removed Top Rows\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers1\",{{\"Unit_Cost\", type number}}),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Changed Type1\",{{\"Unit_Cost\", Currency.Type}, {\"Unit_Price\", Currency.Type}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type2\",{{\"ProductKey\", \"Product Key\"}, {\"ProductSubcategoryKey\", \"Product Subcategory Key\"}, {\"Product_New\", \"Product New\"}, {\"Unit_Cost\", \"Unit Cost\"}, {\"Unit_Price\", \"Unit Price\"}}),",
+                "    #\"Changed Type3\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Product Key\", Int64.Type}, {\"Product Subcategory Key\", Int64.Type}}),",
+                "    #\"Added Conditional Column\" = Table.AddColumn(#\"Changed Type3\", \"Price Range\", each if [Unit Price] <= 100 then \"Low\" else if [Unit Price] < 1000 then \"Mid\" else if [Unit Price] >= 1000 then \"High\" else \"Unclassified\"),",
+                "    #\"Changed Type4\" = Table.TransformColumnTypes(#\"Added Conditional Column\",{{\"Price Range\", type text}})",
+                "in",
+                "    #\"Changed Type4\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maven Cycles Sales",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "__PBI_SemanticLinks",
+            "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Calendar\",\"TableItemName\":\"Date (clusters)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Transaction_Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "22d35a00-7567-4cd9-8111-89c14b2be025",
+            "sourceColumn": "Transaction_Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Stock_ Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "5610f482-d65b-4663-87a9-385f9ee62cbc",
+            "sourceColumn": "Stock_ Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Invoice_ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bb0854ac-4c34-454f-b72a-fcc8d987c629",
+            "sourceColumn": "Invoice_ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age_Group_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "30f70b07-3a84-4f47-9494-5edded812a13",
+            "sourceColumn": "Age_Group_Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer_Gender_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "189ed91b-eb4f-4d04-a276-d3608fda73c8",
+            "sourceColumn": "Customer_Gender_Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Region_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1ad2db53-0ef0-4b8e-9cd7-2f02704e5bd8",
+            "sourceColumn": "Region_Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product_Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e45b8fd8-8264-44a7-a9cd-101e60465aa6",
+            "sourceColumn": "Product_Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quantity_Sold",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Sales\",\"TableItemName\":\"Quantity_Sold (bins)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "#,0",
+            "lineageTag": "dd141d6c-38fe-4dbf-a2e4-d4d2ecb4dd95",
+            "sourceColumn": "Quantity_Sold",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Quantity_Sold (bins)",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity_Sold\"}}],\"BinItem\":{\"Expression\":{\"Member\":{\"Expression\":{\"Discretize\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity_Sold\"}},\"Count\":5}},\"Member\":\"Min\"}}}}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "expression": [
+              "VAR __Count = 5",
+              "",
+              "VAR __Min = MIN('Maven Cycles Sales'[Quantity_Sold])",
+              "",
+              "VAR __Max = MAX('Maven Cycles Sales'[Quantity_Sold])",
+              "",
+              "VAR __Difference = (__Max - __Min)",
+              "",
+              "VAR __Size = IF(__Difference > 0, __Difference / __Count, 1)",
+              "",
+              "VAR __BinNumber = INT(('Maven Cycles Sales'[Quantity_Sold] - __Min) / __Size)",
+              "",
+              "RETURN",
+              "\tIF(",
+              "\t\tISBLANK('Maven Cycles Sales'[Quantity_Sold]),",
+              "\t\tBLANK(),",
+              "\t\t__Min + (MIN(__BinNumber, __Count - 1) * __Size)",
+              "\t)"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Maven Cycles Sales"
+                          }
+                        },
+                        "Property": "Quantity_Sold"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "51e76ead-fe8e-4184-b4b3-a9b3541308da",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "c4ef4b4f-a41b-46b8-af6c-2e299008c800",
+        "measures": [
+          {
+            "name": "Total Orders",
+            "expression": [
+              "",
+              "DISTINCTCOUNT(",
+              "    'Maven Cycles Sales'[Invoice_ID]",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "f3be5a15-a83c-403e-906a-65d72cceae10"
+          },
+          {
+            "name": "Quantity_Sold YTD",
+            "changedProperties": [
+              {
+                "property": "FormatString"
+              }
+            ],
+            "expression": [
+              "",
+              "TOTALYTD(",
+              "\tSUM('Maven Cycles Sales'[Quantity_Sold]),",
+              "\t'Maven Cycles Calendar'[Date]",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "MeasureTemplate",
+                "type": "json",
+                "value": {
+                  "daxTemplateName": "YearToDate",
+                  "version": 0
+                }
+              }
+            ],
+            "formatString": "0",
+            "lineageTag": "8ae42c5f-247b-434c-b12c-4d1464297dab"
+          },
+          {
+            "name": "Quantity Sold",
+            "annotations": [
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Calendar\",\"TableItemName\":\"Date (clusters)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "expression": [
+              "",
+              "SUM(",
+              "    'Maven Cycles Sales'[Quantity_Sold]",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "dc70d58d-3010-48b2-a882-e12440ca3729"
+          },
+          {
+            "name": "Total Cost",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Calendar\",\"TableItemName\":\"Date (clusters)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "expression": [
+              "",
+              "SUMX(",
+              "    'Maven Cycles Sales',",
+              "    'Maven Cycles Sales'[Quantity_Sold] *",
+              "    RELATED(",
+              "        'Maven Cycles Products'[Unit Cost]",
+              "           )",
+              ")"
+            ],
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "911013d8-566e-47c4-a337-d01fc076b7a9"
+          },
+          {
+            "name": "Total Revenue",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "SUMX(",
+              "    'Maven Cycles Sales',",
+              "    'Maven Cycles Sales'[Quantity_Sold] *",
+              "    RELATED(",
+              "        'Maven Cycles Products'[Unit Price]",
+              "           )",
+              ")"
+            ],
+            "formatString": "\\$#,0;-\\$#,0;\\$#,0",
+            "lineageTag": "afe37a73-c674-4c7f-80dc-807c5c28635a"
+          },
+          {
+            "name": "Profit",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ],
+            "expression": "[Total Revenue] - [Total Cost]",
+            "formatString": "\\$#,0.0;-\\$#,0.0;\\$#,0.0",
+            "lineageTag": "2ada4346-53b7-4798-993a-67f6dcd4bb00"
+          },
+          {
+            "name": "Profit Margin",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    [Total Revenue] - [Total Cost],",
+              "    [Total Revenue],",
+              "    \"N/A\"",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "0c2732ab-b6c9-4517-95f6-a5471977bd59"
+          },
+          {
+            "name": "Australian orders",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Total Orders],",
+              "    'Maven Cycles Regions'[Country] = \"Australia\"",
+              ")"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "445015c5-5c3b-4d9b-b509-3927f2c06610"
+          },
+          {
+            "name": "Quantity Sold (Stock Date)",
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Quantity Sold],",
+              "    USERELATIONSHIP(",
+              "        'Maven Cycles Sales'[Stock_ Date],",
+              "        'Maven Cycles Calendar'[Date]",
+              "    )",
+              ")"
+            ],
+            "formatString": "0",
+            "lineageTag": "5f5b28c4-2200-435d-bcbf-7d763d58b794"
+          },
+          {
+            "name": "All Profit",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Profit],",
+              "    ALL(",
+              "        'Maven Cycles Sales'",
+              "    )",
+              ")"
+            ],
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "7e25139f-666c-4c01-83e6-e5a4c7885dc3"
+          },
+          {
+            "name": "% of Profit",
+            "expression": [
+              "",
+              "DIVIDE(",
+              "    [Profit],",
+              "    [All Profit]",
+              ")"
+            ],
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "1257187b-4427-421a-95d3-9e7856a6eac1"
+          },
+          {
+            "name": "Mid Price Range Revenue",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "SUMX(",
+              "    FILTER(",
+              "        'Maven Cycles Products',",
+              "        'Maven Cycles Products'[Price Range] = \"Mid\"",
+              "    ),",
+              "    [Total Revenue]",
+              ")"
+            ],
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "d362b5b8-0416-4a58-9b46-0b0489c531aa"
+          },
+          {
+            "name": "Last Month Revenue",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Total Revenue],",
+              "    DATEADD(",
+              "        'Maven Cycles Calendar'[Date],",
+              "        -1,",
+              "        MONTH",
+              "    )",
+              ")"
+            ],
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "0687b98b-17ba-4807-a898-1ca9f8165e11"
+          },
+          {
+            "name": "Last Month Profit",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-CA\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Profit],",
+              "    DATEADD(",
+              "        'Maven Cycles Calendar'[Date],",
+              "        -1,",
+              "        MONTH",
+              "    )",
+              ")"
+            ],
+            "formatString": "\\$#,0.###############;-\\$#,0.###############;\\$#,0.###############",
+            "lineageTag": "9d598cb1-1b90-49c3-931d-abe1ebcf54a4"
+          },
+          {
+            "name": "Last Month Profit Margin",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    [Profit Margin],",
+              "    DATEADD(",
+              "        'Maven Cycles Calendar'[Date],",
+              "        -1,",
+              "        MONTH",
+              "    )",
+              ")"
+            ],
+            "lineageTag": "a22c9c93-f917-4d4d-98cc-82e22e0769dc"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Maven Cycles Sales",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Power BI\\Maven Cycles Raw Data Files\\Maven Cycles Sales.xlsx\"), null, true),",
+                "    #\"Maven Cycles Sales_Sheet\" = Source{[Item=\"Maven Cycles Sales\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Maven Cycles Sales_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Transaction_Date\", type date}, {\"Stock_ Date\", type date}, {\"Invoice_ID\", type text}, {\"Age_Group_Key\", Int64.Type},{\"Customer_Gender_Key\", Int64.Type}, {\"Region_Key\", Int64.Type},  {\"Product_Key\", Int64.Type}, {\"Quantity_Sold\", Int64.Type}}),",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Changed Type\",{\"Transaction_Date\", \"Product_Key\", \"Stock_ Date\", \"Invoice_ID\", \"Age_Group_Key\", \"Customer_Gender_Key\", \"Region_Key\", \"Quantity_Sold\"})",
+                "in",
+                "    #\"Reordered Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maven Cycles Calendar",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Calendar\",\"TableItemName\":\"Date (clusters)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd/mm/yy",
+            "isKey": true,
+            "lineageTag": "7af2ac0e-feb4-4047-b2d2-e27f49ac77d1",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "expression": [
+              "",
+              "STARTOFYEAR(",
+              "    'Maven Cycles Calendar'[Date]",
+              ")"
+            ],
+            "formatString": "yyyy",
+            "isDataTypeInferred": true,
+            "lineageTag": "cd442e04-d461-44a2-82d1-c4314261a571",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Start of Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "expression": [
+              "",
+              "STARTOFQUARTER(",
+              "    'Maven Cycles Calendar'[Date]",
+              ")"
+            ],
+            "formatString": "dd/mm/yyyy hh:nn:ss",
+            "isDataTypeInferred": true,
+            "lineageTag": "b91cc38b-7284-47a8-b7f1-2fbe558110e0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Start of Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDateTimeCustom\":true}"
+              }
+            ],
+            "dataType": "dateTime",
+            "expression": [
+              "",
+              "STARTOFMONTH(",
+              "    'Maven Cycles Calendar'[Date]",
+              ")"
+            ],
+            "formatString": "mmmm\\, yyyy",
+            "isDataTypeInferred": true,
+            "lineageTag": "569bc497-89c6-4716-ad3c-408bb4a4a739",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month Number",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": [
+              "",
+              "MONTH(",
+              "    'Maven Cycles Calendar'[Date]",
+              "    )"
+            ],
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "f19908b2-8cad-4225-9555-ab57aff410f3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Monthth Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "FORMAT(",
+              "    DATE(",
+              "        1,",
+              "        'Maven Cycles Calendar'[Month Number],",
+              "        1",
+              "    ),",
+              "    \"mmm\"",
+              ")"
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "28e51ecf-001e-4000-95f0-a0a511619180",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Date (clusters)",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Calendar\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Date\"}}],\"PartitionTable\":{\"Definition\":{\"TableDefinition\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\"},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Calendar\"}],\"Where\":[],\"OrderBy\":[],\"Select\":[{\"Column\":{\"Expression\":{\"TransformTableRef\":{\"Source\":\"output0\"}},\"Property\":\"Maven Cycles Calendar.Date\"},\"Name\":\"Maven Cycles Calendar.Date\"},{\"Column\":{\"Expression\":{\"TransformTableRef\":{\"Source\":\"output0\"}},\"Property\":\"clusterId\"},\"Name\":\"clusterId\"}],\"GroupBy\":[],\"Transform\":[{\"Name\":\"KMeansClustering\",\"Algorithm\":\"KMeansClustering\",\"Input\":{\"Parameters\":[{\"Literal\":{\"Value\":\"3L\"},\"Name\":\"NumberOfClusters\"}],\"Table\":{\"Name\":\"input0\",\"Columns\":[{\"Role\":\"Attribute\",\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Cost\"},\"Name\":\"Maven Cycles Sales.Total Cost\"}},{\"Role\":\"Attribute\",\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity Sold\"},\"Name\":\"Maven Cycles Sales.Quantity Sold\"}},{\"Role\":\"Item\",\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Date\"},\"Name\":\"Maven Cycles Calendar.Date\"}}]}},\"Output\":{\"Table\":{\"Name\":\"output0\",\"Columns\":[{\"Expression\":{\"Column\":{\"Expression\":{\"TransformTableRef\":{\"Source\":\"input0\"}},\"Property\":\"Maven Cycles Calendar.Date\"},\"Name\":\"Maven Cycles Calendar.Date\"}},{\"Role\":\"Series\",\"Expression\":{\"TransformOutputRoleRef\":{\"Role\":\"ClusterId\"},\"Name\":\"clusterId\"}}]}}}]},\"ItemIdColumns\":[\"Maven Cycles Calendar.Date\"],\"PartitionIdColumn\":\"clusterId\",\"Partitions\":[{\"PartitionIds\":[{\"Literal\":{\"Value\":\"null\"}}]}],\"DefaultPartitionPrefix\":\"Cluster\"},\"Result\":{\"TableName\":\"ClusterMappingTable\",\"PartitionIdColumn\":\"ClusterId\",\"ItemIdMappings\":[[{\"PartitionTableColumn\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"ClusterMappingTable\"}},\"Property\":\"Date\"}},\"SourceTableColumn\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Date\"}}}]]}}}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "description": "Clusters for Date",
+            "expression": [
+              "VAR __ClusterValue = ",
+              "\tLOOKUPVALUE(",
+              "\t\t'ClusterMappingTable'[ClusterId],",
+              "\t\t'ClusterMappingTable'[Date],",
+              "\t\t'Maven Cycles Calendar'[Date]",
+              "\t)",
+              "",
+              "RETURN",
+              "\tSWITCH(",
+              "\t\t__ClusterValue,",
+              "\t\tBLANK(),",
+              "\t\tBLANK(),",
+              "\t\tCONCATENATE(\"Cluster\", __ClusterValue)",
+              "\t)"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Maven Cycles Calendar"
+                          }
+                        },
+                        "Property": "Date"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "c9314ac9-a1bb-44ef-8ea4-4ea645e3176d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "4d2e695f-bb12-4490-8f06-bcd606db2bae",
+        "partitions": [
+          {
+            "name": "Maven Cycles Calendar",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Power BI\\Maven Cycles Raw Data Files\\Maven Cycles Calendar.xlsx\"), null, true),",
+                "    #\"Maven Cycles Calendar_Sheet\" = Source{[Item=\"Maven Cycles Calendar\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Maven Cycles Calendar_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Date_and_Time\", type any}}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Changed Type\",{{\"Date_and_Time\", type text}}),",
+                "    #\"Inserted Text Before Delimiter\" = Table.AddColumn(#\"Changed Type1\", \"Text Before Delimiter\", each Text.BeforeDelimiter([Date_and_Time], \"T\"), type text),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Inserted Text Before Delimiter\",{{\"Text Before Delimiter\", type date}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type2\",{\"Date_and_Time\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Columns\",{{\"Text Before Delimiter\", \"Date\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maven Cycles Age Group",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Age Group Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5e003894-9cc0-4ad1-ae11-dd7221c755e9",
+            "sourceColumn": "Age Group Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Age Group",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e723bfe3-6a9f-4cea-a9e7-a01cfb6de5ab",
+            "sourceColumn": "Age Group",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "993b7bac-4d38-472f-9445-e5a0af85c89e",
+        "partitions": [
+          {
+            "name": "Maven Cycles Age Group",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Power BI\\Maven Cycles Raw Data Files\\Maven Cycles Age Group.xlsx\"), null, true),",
+                "    #\"Maven Cycles Age Group_Sheet\" = Source{[Item=\"Maven Cycles Age Group\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Maven Cycles Age Group_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"AgeGroupKey\", Int64.Type}, {\"AgeGroup\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"AgeGroupKey\", \"Age Group Key\"}, {\"AgeGroup\", \"Age Group\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maven Cycles Gender",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Gender Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b060eec5-854d-4395-86da-85b2e8a8eaec",
+            "sourceColumn": "Gender Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer Gender",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f5dac3a0-2d5f-4993-924c-a3e198b7e4cd",
+            "sourceColumn": "Customer Gender",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "191424ce-2b9e-4301-bed4-6b7dfbad895c",
+        "partitions": [
+          {
+            "name": "Maven Cycles Gender",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Power BI\\Maven Cycles Raw Data Files\\Maven Cycles Gender.xlsx\"), null, true),",
+                "    #\"Maven Cycles Gender_Sheet\" = Source{[Item=\"Maven Cycles Gender\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Maven Cycles Gender_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"GenderKey\", Int64.Type}, {\"CustomerGender\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"GenderKey\", \"Gender Key\"}, {\"CustomerGender\", \"Customer Gender\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maven Cycles Product Categories",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Product Category Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0027f581-f825-471b-a99b-4ca159a9933b",
+            "sourceColumn": "Product Category Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product Category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d9924b74-ebd7-4be8-8717-aaa169b08803",
+            "sourceColumn": "Product Category",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "da77e810-7987-44aa-ab2b-3ecab098c137",
+        "partitions": [
+          {
+            "name": "Maven Cycles Product Categories",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Power BI\\Maven Cycles Raw Data Files\\Maven Cycles Product Categories.xlsx\"), null, true),",
+                "    #\"Maven Cycles Product Categories_Sheet\" = Source{[Item=\"Maven Cycles Product Categories\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Maven Cycles Product Categories_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"ProductCategoryKey\", Int64.Type}, {\"ProductCategory\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"ProductCategoryKey\", \"Product Category Key\"}, {\"ProductCategory\", \"Product Category\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maven Cycles Product Subcategories",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Product Subcategory Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4f82caa9-9df7-46d0-b5ae-99299b594c5e",
+            "sourceColumn": "Product Subcategory Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sub Category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "524f8e0e-314a-4350-bb98-0b7f55030f94",
+            "sourceColumn": "Sub Category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product Category Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "fca37c06-9236-4846-87d5-2fd23261eb0b",
+            "sourceColumn": "Product Category Key",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "f0b2c208-72df-43ba-8b50-1f883102d635",
+        "partitions": [
+          {
+            "name": "Maven Cycles Product Subcategories",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Power BI\\Maven Cycles Raw Data Files\\Maven Cycles Product Subcategories.xlsx\"), null, true),",
+                "    #\"Maven Cycles Product Subcategor_Sheet\" = Source{[Item=\"Maven Cycles Product Subcategor\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Maven Cycles Product Subcategor_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"ProductSubcategoryKey\", Int64.Type}, {\"SubCategory\", type text}, {\"ProductCategoryKey\", Int64.Type}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"ProductSubcategoryKey\", \"Product Subcategory Key\"}, {\"SubCategory\", \"Sub Category\"}, {\"ProductCategoryKey\", \"Product Category Key\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Maven Cycles Regions",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Sales Territory Key",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f5fa428a-cd0d-46fa-8ff1-ae17e56ffc11",
+            "sourceColumn": "Sales Territory Key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Region",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Regions\",\"TableItemName\":\"Region (groups)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5ba80d2e-ef73-47f6-bcd5-9b2413bf1010",
+            "sourceColumn": "Region",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "83520ba3-2395-4628-8540-ceb5fb3cc6a7",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Continent",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6a8b83c4-2fe9-4c54-8300-1591269c82fe",
+            "sourceColumn": "Continent",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Territory Manager",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8b241a10-785f-4771-a099-d66b97b5aff0",
+            "sourceColumn": "Territory Manager",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Email Address",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cc678659-3d4f-468b-a359-d062b42f6d1c",
+            "sourceColumn": "Email Address",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Region (groups)",
+            "annotations": [
+              {
+                "name": "GroupingDesignState",
+                "value": "{\"Version\":0,\"Sources\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Regions\"}],\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Region\"}}],\"GroupItems\":[{\"DisplayName\":\"(Blank)\",\"BlankDefaultPlaceholder\":true},{\"DisplayName\":\"Other\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Region\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Australia'\"}}],[{\"Literal\":{\"Value\":\"'Canada'\"}}],[{\"Literal\":{\"Value\":\"'France'\"}}],[{\"Literal\":{\"Value\":\"'Germany'\"}}],[{\"Literal\":{\"Value\":\"'United Kingdom'\"}}]]}}},{\"DisplayName\":\"US Central\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Region\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Central'\"}}]]}}},{\"DisplayName\":\"US North\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Region\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Northeast'\"}}],[{\"Literal\":{\"Value\":\"'Northwest'\"}}]]}}},{\"DisplayName\":\"US South\",\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Region\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Southeast'\"}}],[{\"Literal\":{\"Value\":\"'Southwest'\"}}]]}}}]}"
+              },
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "SWITCH(",
+              "\tTRUE,",
+              "\tISBLANK('Maven Cycles Regions'[Region]),",
+              "\t\"(Blank)\",",
+              "\t'Maven Cycles Regions'[Region] IN {\"Australia\",",
+              "\t\t\"Canada\",",
+              "\t\t\"France\",",
+              "\t\t\"Germany\",",
+              "\t\t\"United Kingdom\"},",
+              "\t\"Other\",",
+              "\t'Maven Cycles Regions'[Region] IN {\"Central\"},",
+              "\t\"US Central\",",
+              "\t'Maven Cycles Regions'[Region] IN {\"Northeast\",",
+              "\t\t\"Northwest\"},",
+              "\t\"US North\",",
+              "\t'Maven Cycles Regions'[Region] IN {\"Southeast\",",
+              "\t\t\"Southwest\"},",
+              "\t\"US South\",",
+              "\t'Maven Cycles Regions'[Region]",
+              ")"
+            ],
+            "extendedProperties": [
+              {
+                "name": "GroupingMetadata",
+                "type": "json",
+                "value": {
+                  "groupedColumns": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "Maven Cycles Regions"
+                          }
+                        },
+                        "Property": "Region"
+                      }
+                    }
+                  ],
+                  "version": 0
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "31ad21ce-876f-42b0-a036-9fc86cb7ba6b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "e2a6dd42-fa01-4a68-b9ff-5effd5012312",
+        "partitions": [
+          {
+            "name": "Maven Cycles Regions",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Power BI\\Maven Cycles Raw Data Files\\Maven Cycles Regions.xlsx\"), null, true),",
+                "    #\"Maven Cycles Regions_Sheet\" = Source{[Item=\"Maven Cycles Regions\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Maven Cycles Regions_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"SalesTerritoryKey\", Int64.Type}, {\"Region\", type text}, {\"Country\", type text}, {\"Continent\", type text}, {\"TerritoryManager\", type text}, {\"EmailAddress\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"SalesTerritoryKey\", \"Sales Territory Key\"}, {\"TerritoryManager\", \"Territory Manager\"}, {\"EmailAddress\", \"Email Address\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Top 10 Products",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "8e0ec60b36244e3d9b1ba29d3eef7be9"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Product New",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "6e1983cc-241e-4f3b-be9a-08d5922694eb",
+            "sourceColumn": "Maven Cycles Products[Product New]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Quantity sold",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "#,0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "531bf21a-5a2a-4d57-8f9c-30c01c712992",
+            "sourceColumn": "[Quantity sold]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "979e9632-1ae1-4f90-b365-5092fe76f7b0",
+        "partitions": [
+          {
+            "name": "Top 10 Products",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "TOPN(",
+                "    10,",
+                "    SUMMARIZE(",
+                "        'Maven Cycles Products',",
+                "        'Maven Cycles Products'[Product New],",
+                "        \"Quantity sold\",",
+                "        [Quantity Sold]",
+                "    ),",
+                "    [Quantity sold],",
+                "    DESC",
+                ")"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ClusterMappingTable",
+        "annotations": [
+          {
+            "name": "ClusterMappingTable",
+            "value": "true"
+          },
+          {
+            "name": "__PBI_SemanticLinks",
+            "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Calendar\",\"TableItemName\":\"Date (clusters)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Calendar\",\"TableItemName\":\"Date (clusters)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "ac1a5740-28e8-4651-8a37-5dd2fd267f49",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ClusterId",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "__PBI_SemanticLinks",
+                "value": "[{\"LinkTarget\":{\"TableName\":\"Maven Cycles Calendar\",\"TableItemName\":\"Date (clusters)\",\"ObjectType\":4},\"LinkType\":\"UsedInGroup\"}]"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "3d9a1d55-be40-4ee1-912e-e17788519e15",
+            "sourceColumn": "[ClusterId]",
+            "summarizeBy": "count",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "7ec93e8b-5f51-40bc-891c-d5e99aebd9c1",
+        "partitions": [
+          {
+            "name": "ClusterMappingTable",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "VAR __DS0Core = ",
+                "\tSUMMARIZECOLUMNS(",
+                "\t\t'Maven Cycles Calendar'[Date],",
+                "\t\t\"Total_Cost\", 'Maven Cycles Sales'[Total Cost],",
+                "\t\t\"Quantity_Sold2\", 'Maven Cycles Sales'[Quantity Sold]",
+                "\t)",
+                "",
+                "VAR __DataTransformT0 = ",
+                "\tKMeansClustering(",
+                "\t\tSELECTCOLUMNS(",
+                "\t\t\t__DS0Core,",
+                "\t\t\t\"Date\", 'Maven Cycles Calendar'[Date],",
+                "\t\t\t\"Total_Cost\", [Total_Cost],",
+                "\t\t\t\"Quantity_Sold2\", [Quantity_Sold2]",
+                "\t\t),",
+                "\t\t{(\"[Total_Cost]\", \"Attribute\"),",
+                "\t\t\t(\"[Quantity_Sold2]\", \"Attribute\"),",
+                "\t\t\t(\"[Date]\", \"Item\")},",
+                "\t\t{(\"[Date]\", BLANK()),",
+                "\t\t\t(\"ClusterId\", \"ClusterId\")},",
+                "\t\t3",
+                "\t)",
+                "",
+                "RETURN __DataTransformT0"
+              ],
+              "retainDataTillForceCalculate": true,
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

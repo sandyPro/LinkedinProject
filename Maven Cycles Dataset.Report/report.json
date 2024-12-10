@@ -1,0 +1,426 @@
+{
+  "config": "{\"version\":\"5.47\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU08\",\"version\":\"5.48\",\"type\":2},\"customTheme\":{\"name\":\"AccessibleDefault\",\"version\":\"5.48\",\"type\":2}},\"activeSectionIndex\":3,\"bookmarks\":[{\"displayName\":\"1H 2020\",\"name\":\"Bookmarkd7539103eef8926fad95\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSectionefdc006596418b7e09ad\",\"sections\":{\"ReportSectionefdc006596418b7e09ad\":{\"visualContainers\":{\"8ada88471e9e07a8d131\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Revenue\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Last Month Revenue\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"f5666c62b04a8d8a3379\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Last Month Profit\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"c4f6b1e74eb6c8991a74\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit Margin\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Last Month Profit Margin\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"4c5f1a5e5ba08e00f764\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Products\"}},\"Property\":\"Product New\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Orders\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Revenue\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit Margin\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"tableEx\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Revenue\"}}}]}},\"00de695f9a45507c8638\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Regions\"}},\"Property\":\"Country\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Revenue\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Orders\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"% of Profit\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Quantity Sold\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"map\",\"objects\":{},\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Regions\"}},\"Property\":\"Country\"}}]}}},\"569967f8154bbc41d718\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Quarter\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Year\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineChart\",\"objects\":{},\"orderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Quarter\"}}},{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Year\"}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}}]}}},\"3bc724e63a1c1e1eec9a\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}},\"50a934a6a47ea1c3963f\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Categories\"}},\"Property\":\"Product Category\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"donutChart\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Categories\"}},\"Property\":\"Product Category\"}}]}}},\"0336a6bc6ef9aa8f81fc\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"2dae9d153aca302c5530\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Date\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2020-01-01T00:00:00'\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2020-07-31T00:00:00'\"}}}}}}}]}}}}],\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2020-01-01T00:00:00'\"}}},\"endDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2020-07-30T00:00:00'\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}]}},\"orderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Date\"}}}],\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Date\"}}]}}},\"3016572b715d7fe918d8\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Subcategories\"}},\"Property\":\"Sub Category\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Subcategories\"}},\"Property\":\"Sub Category\"}}]}}},\"e8ae2e42cabda9a41f96\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}},\"37197d6b5909827378a0\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[\"50a934a6a47ea1c3963f\"]}},{\"displayName\":\"Reset\",\"name\":\"Bookmarkb68ddb7ab573217348c6\",\"explorationState\":{\"version\":\"1.3\",\"activeSection\":\"ReportSectionefdc006596418b7e09ad\",\"sections\":{\"ReportSectionefdc006596418b7e09ad\":{\"visualContainers\":{\"8ada88471e9e07a8d131\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Revenue\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Last Month Revenue\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"f5666c62b04a8d8a3379\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Last Month Profit\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"c4f6b1e74eb6c8991a74\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit Margin\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Last Month Profit Margin\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"kpi\",\"objects\":{}}},\"4c5f1a5e5ba08e00f764\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Products\"}},\"Property\":\"Product New\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Orders\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Revenue\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit Margin\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"tableEx\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Revenue\"}}}]}},\"00de695f9a45507c8638\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Regions\"}},\"Property\":\"Country\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Revenue\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Total Orders\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"% of Profit\"}},\"howCreated\":0},{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Quantity Sold\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"map\",\"objects\":{},\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Regions\"}},\"Property\":\"Country\"}}]}}},\"569967f8154bbc41d718\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Quarter\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Year\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"lineChart\",\"objects\":{},\"orderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Quarter\"}}},{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Year\"}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}}]}}},\"3bc724e63a1c1e1eec9a\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}},\"50a934a6a47ea1c3963f\":{\"filters\":{\"byExpr\":[{\"type\":\"Advanced\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}},\"howCreated\":0},{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Categories\"}},\"Property\":\"Product Category\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"donutChart\",\"objects\":{},\"orderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit\"}}}],\"activeProjections\":{\"Category\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Categories\"}},\"Property\":\"Product Category\"}}]}}},\"0336a6bc6ef9aa8f81fc\":{\"singleVisual\":{\"visualType\":\"image\",\"objects\":{}}},\"2dae9d153aca302c5530\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Date\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2015-01-01T00:00:00'\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2020-07-31T00:00:00'\"}}}}}}}]}}}}],\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2015-01-01T00:00:00'\"}}},\"endDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2020-07-30T00:00:00'\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}]}},\"orderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Date\"}}}],\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Date\"}}]}}},\"3016572b715d7fe918d8\":{\"filters\":{\"byExpr\":[{\"type\":\"Categorical\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Subcategories\"}},\"Property\":\"Sub Category\"}},\"howCreated\":0}]},\"singleVisual\":{\"visualType\":\"slicer\",\"objects\":{\"merge\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]}},\"activeProjections\":{\"Values\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Subcategories\"}},\"Property\":\"Sub Category\"}}]}}},\"e8ae2e42cabda9a41f96\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}},\"37197d6b5909827378a0\":{\"singleVisual\":{\"visualType\":\"actionButton\",\"objects\":{}}}}}},\"objects\":{\"merge\":{\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}},\"options\":{\"targetVisualNames\":[\"50a934a6a47ea1c3963f\"]}}],\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "ReportSectionefdc006596418b7e09ad",
+      "config": "{}",
+      "name": "Pod"
+    },
+    {
+      "boundSection": "ReportSectionbf17b7641b134e4174b6",
+      "config": "{}",
+      "name": "Pod1",
+      "parameters": "[{\"name\":\"Param_Filter690afdac16fb34c45109\",\"boundFilter\":\"Filter690afdac16fb34c45109\",\"fieldExpr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Regions\"}},\"Property\":\"Country\"}}}]",
+      "type": 1
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "AccessibleDefault",
+            "path": "BuiltInThemes/AccessibleDefault.json",
+            "type": 201
+          },
+          {
+            "name": "CY23SU08",
+            "path": "BaseThemes/CY23SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Maven_Cycles_Logo9826952407208762.png",
+            "path": "Maven_Cycles_Logo9826952407208762.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"183e22c90485973baa41\",\"layouts\":[{\"id\":0,\"position\":{\"x\":378.27814569536423,\"y\":0,\"z\":3000,\"width\":332.18543046357615,\"height\":135.09933774834437,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Product Categories.Product Category\"},{\"queryRef\":\"Maven Cycles Sales.Profit\"},{\"queryRef\":\"Maven Cycles Sales.% of Profit\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Product Categories\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Product Category\"},\"Name\":\"Maven Cycles Product Categories.Product Category\",\"NativeReferenceName\":\"Product Category\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Profit\"},\"Name\":\"Maven Cycles Sales.Profit\",\"NativeReferenceName\":\"Profit\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"% of Profit\"},\"Name\":\"Maven Cycles Sales.% of Profit\",\"NativeReferenceName\":\"% of Profit\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 135.10,
+          "width": 332.19,
+          "x": 378.28,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"382c2a0c7a26ea6a7405\",\"layouts\":[{\"id\":0,\"position\":{\"x\":397.35099337748346,\"y\":419.6026490066225,\"z\":5000,\"width\":356.02649006622516,\"height\":257.4834437086093,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Top 10 Products.Product New\"},{\"queryRef\":\"Sum(Top 10 Products.Quantity sold)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Top 10 Products\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Product New\"},\"Name\":\"Top 10 Products.Product New\",\"NativeReferenceName\":\"Product New\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Quantity sold\"},\"Name\":\"Sum(Top 10 Products.Quantity sold)\",\"NativeReferenceName\":\"Quantity sold\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Quantity sold\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 257.48,
+          "width": 356.03,
+          "x": 397.35,
+          "y": 419.60,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"a0a3f59ba961581c2a36\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":217.74834437086093,\"z\":2000,\"width\":398.9403973509934,\"height\":351.2582781456954,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\"},{\"queryRef\":\"Maven Cycles Sales.Quantity Sold\"},{\"queryRef\":\"Maven Cycles Sales.Quantity Sold (Stock Date)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Quantity Sold\"},\"Name\":\"Maven Cycles Sales.Quantity Sold\",\"NativeReferenceName\":\"Quantity Sold\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Quantity Sold (Stock Date)\"},\"Name\":\"Maven Cycles Sales.Quantity Sold (Stock Date)\",\"NativeReferenceName\":\"Quantity Sold (Stock Date)\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[{\"name\":\"Filter370a1fcf4fcd78c14e16\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Calendar\"}},\"Property\":\"Start of Month\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Start of Month\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 351.26,
+          "width": 398.94,
+          "x": 0.00,
+          "y": 217.75,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"b59162bd9b5e90cd6482\",\"layouts\":[{\"id\":0,\"position\":{\"x\":398.9403973509934,\"y\":217.74834437086093,\"z\":4000,\"width\":397.35099337748346,\"height\":201.8543046357616,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Regions.Country\"},{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"},{\"queryRef\":\"Maven Cycles Sales.Mid Price Range Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Regions\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Country\"},\"Name\":\"Maven Cycles Regions.Country\",\"NativeReferenceName\":\"Country\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Mid Price Range Revenue\"},\"Name\":\"Maven Cycles Sales.Mid Price Range Revenue\",\"NativeReferenceName\":\"Mid Price Range Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 201.85,
+          "width": 397.35,
+          "x": 398.94,
+          "y": 217.75,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"e072f28c26de980ef7ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":710.4635761589404,\"y\":0,\"z\":0,\"width\":481.58940397350995,\"height\":135.09933774834437,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Sales.Total Orders\"},{\"queryRef\":\"Maven Cycles Sales.Quantity Sold\"},{\"queryRef\":\"Maven Cycles Sales.Total Cost\"},{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"},{\"queryRef\":\"Maven Cycles Sales.Profit Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Orders\"},\"Name\":\"Maven Cycles Sales.Total Orders\",\"NativeReferenceName\":\"Total Orders\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity Sold\"},\"Name\":\"Maven Cycles Sales.Quantity Sold\",\"NativeReferenceName\":\"Quantity Sold\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Cost\"},\"Name\":\"Maven Cycles Sales.Total Cost\",\"NativeReferenceName\":\"Total Cost\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Profit Margin\"},\"Name\":\"Maven Cycles Sales.Profit Margin\",\"NativeReferenceName\":\"Profit Margin\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Orders\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 135.10,
+          "width": 481.59,
+          "x": 710.46,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"eb0a5e38562646e8d175\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":1000,\"width\":343.3112582781457,\"height\":206.6225165562914,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Regions.Country\"},{\"queryRef\":\"Maven Cycles Sales.Total Orders\"},{\"queryRef\":\"Maven Cycles Regions.Australian orders\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Regions\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Country\"},\"Name\":\"Maven Cycles Regions.Country\",\"NativeReferenceName\":\"Country\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Orders\"},\"Name\":\"Maven Cycles Sales.Total Orders\",\"NativeReferenceName\":\"Total Orders\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Australian orders\"},\"Name\":\"Maven Cycles Regions.Australian orders\",\"NativeReferenceName\":\"Australian orders\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Country\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 206.62,
+          "width": 343.31,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"visibility\":1}",
+      "displayName": "Sand Box",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection0b0a821efe0da5b2804d",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"b8da2e1f35c30808acec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":402.11920529801324,\"y\":0,\"z\":1000,\"width\":411.65562913907286,\"height\":260.6622516556291,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Sales.Total Orders\"},{\"queryRef\":\"Maven Cycles Sales.Quantity Sold\"},{\"queryRef\":\"Maven Cycles Sales.Total Cost\"},{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"},{\"queryRef\":\"Maven Cycles Sales.Profit Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Orders\"},\"Name\":\"Maven Cycles Sales.Total Orders\",\"NativeReferenceName\":\"Total Orders\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity Sold\"},\"Name\":\"Maven Cycles Sales.Quantity Sold\",\"NativeReferenceName\":\"Quantity Sold\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Cost\"},\"Name\":\"Maven Cycles Sales.Total Cost\",\"NativeReferenceName\":\"Total Cost\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Profit Margin\"},\"Name\":\"Maven Cycles Sales.Profit Margin\",\"NativeReferenceName\":\"Profit Margin\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 260.66,
+          "width": 411.66,
+          "x": 402.12,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"bbf4472054e765093d5a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.536423841059603,\"y\":289.27152317880797,\"z\":2000,\"width\":507.0198675496689,\"height\":295.6291390728477,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"qnaVisual\",\"drillFilterOtherVisuals\":true}}",
+          "height": 295.63,
+          "width": 507.02,
+          "x": 9.54,
+          "y": 289.27,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"c7a8a9074e754ff190a2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.536423841059603,\"y\":0,\"z\":0,\"width\":319.4701986754967,\"height\":279.73509933774835,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\"},{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"},{\"queryRef\":\"Maven Cycles Sales.Last Month Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Last Month Revenue\"},\"Name\":\"Maven Cycles Sales.Last Month Revenue\",\"NativeReferenceName\":\"Last Month Revenue\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 279.74,
+          "width": 319.47,
+          "x": 9.54,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Key Influencer",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection36c4d85fd3168b46a671",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"5b287411bbf567c4ff48\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":783.75,\"height\":517.5,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"keyDriversVisual\",\"projections\":{\"ExplainBy\":[{\"queryRef\":\"Maven Cycles Product Categories.Product Category\"},{\"queryRef\":\"Maven Cycles Products.Product New\"}],\"Target\":[{\"queryRef\":\"Maven Cycles Sales.Quantity_Sold\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Product Categories\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m2\",\"Entity\":\"Maven Cycles Products\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Product Category\"},\"Name\":\"Maven Cycles Product Categories.Product Category\",\"NativeReferenceName\":\"Product Category\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity_Sold\"},\"Name\":\"Maven Cycles Sales.Quantity_Sold\",\"NativeReferenceName\":\"Quantity_Sold\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m2\"}},\"Property\":\"Product New\"},\"Name\":\"Maven Cycles Products.Product New\",\"NativeReferenceName\":\"Product New\"}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 517.50,
+          "width": 783.75,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Clustering & Grouping",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection6d4ca2c1bbf0e8416a5d",
+      "ordinal": 6,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"12ee536603ea9e7a9457\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.536423841059603,\"y\":0,\"z\":0,\"width\":630.9933774834437,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Maven Cycles Sales.Total Cost\"}],\"X\":[{\"queryRef\":\"Maven Cycles Sales.Quantity Sold\",\"active\":true}],\"Category\":[{\"queryRef\":\"Maven Cycles Calendar.Date\",\"active\":true}],\"Series\":[{\"queryRef\":\"Maven Cycles Calendar.Date (clusters)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Cost\"},\"Name\":\"Maven Cycles Sales.Total Cost\",\"NativeReferenceName\":\"Total Cost\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity Sold\"},\"Name\":\"Maven Cycles Sales.Quantity Sold\",\"NativeReferenceName\":\"Quantity Sold\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Date\"},\"Name\":\"Maven Cycles Calendar.Date\",\"NativeReferenceName\":\"Date\"},{\"GroupRef\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Date (clusters)\",\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Date\"}}]},\"Name\":\"Maven Cycles Calendar.Date (clusters)\",\"NativeReferenceName\":\"Date (clusters)\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 630.99,
+          "x": 9.54,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"4c3007a6bcf44caebe7f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":652,\"y\":277,\"width\":601,\"height\":443,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Maven Cycles Sales.Quantity_Sold)\"}],\"Category\":[{\"queryRef\":\"Maven Cycles Sales.Quantity_Sold (bins)\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity_Sold\"}},\"Function\":5},\"Name\":\"Sum(Maven Cycles Sales.Quantity_Sold)\",\"NativeReferenceName\":\"Count of Quantity_Sold\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity_Sold (bins)\"},\"Name\":\"Maven Cycles Sales.Quantity_Sold (bins)\",\"NativeReferenceName\":\"Quantity_Sold (bins)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Quantity_Sold\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 443.00,
+          "width": 601.00,
+          "x": 652.00,
+          "y": 277.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"98b36caa8504ad551cb1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":651.6556291390729,\"y\":0,\"z\":1000,\"width\":600.794701986755,\"height\":276.55629139072846,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Maven Cycles Sales.Total Orders\"}],\"Category\":[{\"queryRef\":\"Maven Cycles Regions.Region (groups)\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Maven Cycles Regions\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Orders\"},\"Name\":\"Maven Cycles Sales.Total Orders\",\"NativeReferenceName\":\"Total Orders\"},{\"GroupRef\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Region (groups)\",\"GroupedColumns\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Region\"}}]},\"Name\":\"Maven Cycles Regions.Region (groups)\",\"NativeReferenceName\":\"Region (groups)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Orders\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "height": 276.56,
+          "width": 600.79,
+          "x": 651.66,
+          "y": 0.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection8d441b2f200f244a2b9b",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0c398178d1ddf761b23a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":421.1920529801325,\"y\":192.31788079470198,\"z\":2000,\"width\":373.50993377483445,\"height\":336.953642384106,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\"},{\"queryRef\":\"Maven Cycles Sales.Profit Margin\"},{\"queryRef\":\"Maven Cycles Sales.Last Month Profit Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Profit Margin\"},\"Name\":\"Maven Cycles Sales.Profit Margin\",\"NativeReferenceName\":\"Profit Margin\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Last Month Profit Margin\"},\"Name\":\"Maven Cycles Sales.Last Month Profit Margin\",\"NativeReferenceName\":\"Last Month Profit Margin\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 336.95,
+          "width": 373.51,
+          "x": 421.19,
+          "y": 192.32,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"a177566d062f6da364f7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.536423841059603,\"y\":335.36423841059604,\"z\":1000,\"width\":375.0993377483444,\"height\":336.953642384106,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\"},{\"queryRef\":\"Maven Cycles Sales.Profit\"},{\"queryRef\":\"Maven Cycles Sales.Last Month Profit\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Last Month Profit\"},\"Name\":\"Maven Cycles Sales.Last Month Profit\",\"NativeReferenceName\":\"Last Month Profit\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Profit\"},\"Name\":\"Maven Cycles Sales.Profit\",\"NativeReferenceName\":\"Profit\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 336.95,
+          "width": 375.10,
+          "x": 9.54,
+          "y": 335.36,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"d3004ebd0030fe6f55e5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.536423841059603,\"y\":0,\"z\":0,\"width\":386.2251655629139,\"height\":284.50331125827813,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\"},{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"},{\"queryRef\":\"Maven Cycles Sales.Last Month Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Last Month Revenue\"},\"Name\":\"Maven Cycles Sales.Last Month Revenue\",\"NativeReferenceName\":\"Last Month Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 284.50,
+          "width": 386.23,
+          "x": 9.54,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Decomposition Tree",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"Filter690afdac16fb34c45109\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Regions\"}},\"Property\":\"Country\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Regions\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Country\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Australia'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":5}]",
+      "height": 720.00,
+      "name": "ReportSectionbf17b7641b134e4174b6",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"274b43146d83a2c31856\",\"layouts\":[{\"id\":0,\"position\":{\"x\":150,\"y\":180,\"z\":1000,\"width\":818.75,\"height\":367.5,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"decompositionTreeVisual\",\"projections\":{\"Analyze\":[{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"}],\"ExplainBy\":[{\"queryRef\":\"Maven Cycles Regions.Country\",\"active\":true},{\"queryRef\":\"Maven Cycles Product Categories.Product Category\",\"active\":true},{\"queryRef\":\"Maven Cycles Age Group.Age Group\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Regions\",\"Type\":0},{\"Name\":\"m2\",\"Entity\":\"Maven Cycles Product Categories\",\"Type\":0},{\"Name\":\"m3\",\"Entity\":\"Maven Cycles Age Group\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Country\"},\"Name\":\"Maven Cycles Regions.Country\",\"NativeReferenceName\":\"Country\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m2\"}},\"Property\":\"Product Category\"},\"Name\":\"Maven Cycles Product Categories.Product Category\",\"NativeReferenceName\":\"Product Category\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m3\"}},\"Property\":\"Age Group\"},\"Name\":\"Maven Cycles Age Group.Age Group\",\"NativeReferenceName\":\"Age Group\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue\"}}}]},\"expansionStates\":[{\"roles\":[\"ExplainBy\"],\"levels\":[{\"queryRefs\":[\"Maven Cycles Regions.Country\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Regions\"}},\"Property\":\"Country\"}}],\"isPinned\":true},{\"queryRefs\":[\"Maven Cycles Product Categories.Product Category\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Product Categories\"}},\"Property\":\"Product Category\"}}],\"isPinned\":true},{\"queryRefs\":[\"Maven Cycles Age Group.Age Group\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null,\"children\":[{\"identityValues\":[{\"Literal\":{\"Value\":\"'Australia'\"}}],\"isToggled\":true,\"children\":[{\"identityValues\":[{\"Literal\":{\"Value\":\"'Clothing'\"}}],\"isToggled\":true}]}]}}],\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"tree\":[{\"properties\":{\"effectiveBarsPerLevel\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"insights\":[{\"properties\":{\"isAINode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Regions\"}},\"Property\":\"Country\"}},\"Right\":{\"Literal\":{\"Value\":\"'United States'\"}}}}}]}}]}}}",
+          "filters": "[]",
+          "height": 367.50,
+          "width": 818.75,
+          "x": 150.00,
+          "y": 180.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"ef5ab445e63d3712c8d5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"width\":100,\"height\":40,\"z\":0,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'back'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Back'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 100.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"relationships\":[{\"source\":\"8ada88471e9e07a8d131\",\"target\":\"c4f6b1e74eb6c8991a74\",\"type\":3},{\"source\":\"c4f6b1e74eb6c8991a74\",\"target\":\"00de695f9a45507c8638\",\"type\":1},{\"source\":\"00de695f9a45507c8638\",\"target\":\"c4f6b1e74eb6c8991a74\",\"type\":1}]}",
+      "displayName": "Executive view",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectionefdc006596418b7e09ad",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"00de695f9a45507c8638\",\"layouts\":[{\"id\":0,\"position\":{\"x\":630,\"y\":197.14285714285717,\"z\":8000,\"width\":522.8571428571429,\"height\":238.57142857142858,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"Maven Cycles Regions.Country\",\"active\":true}],\"Size\":[{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"}],\"Tooltips\":[{\"queryRef\":\"Maven Cycles Sales.Quantity Sold\"},{\"queryRef\":\"Maven Cycles Sales.Total Orders\"},{\"queryRef\":\"Maven Cycles Sales.Profit\"},{\"queryRef\":\"Maven Cycles Sales.% of Profit\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Regions\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Country\"},\"Name\":\"Maven Cycles Regions.Country\",\"NativeReferenceName\":\"Country\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Orders\"},\"Name\":\"Maven Cycles Sales.Total Orders\",\"NativeReferenceName\":\"Total Orders\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Profit\"},\"Name\":\"Maven Cycles Sales.Profit\",\"NativeReferenceName\":\"Profit\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"% of Profit\"},\"Name\":\"Maven Cycles Sales.% of Profit\",\"NativeReferenceName\":\"% of Profit\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Quantity Sold\"},\"Name\":\"Maven Cycles Sales.Quantity Sold\",\"NativeReferenceName\":\"Quantity Sold\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'REVENUE BY COUNTRY'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 238.57,
+          "width": 522.86,
+          "x": 630.00,
+          "y": 197.14,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"0336a6bc6ef9aa8f81fc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":238.41059602649008,\"height\":197.08609271523179,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Maven_Cycles_Logo9826952407208762.png\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 197.09,
+          "width": 238.41,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"2dae9d153aca302c5530\",\"layouts\":[{\"id\":0,\"position\":{\"x\":270.19867549668874,\"y\":4.768211920529802,\"z\":4000,\"width\":313.112582781457,\"height\":108.0794701986755,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Calendar.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"},\"Name\":\"Maven Cycles Calendar.Date\",\"NativeReferenceName\":\"Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"data\":[{\"properties\":{\"startDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2015-01-01T00:00:00'\"}}},\"endDate\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2020-07-30T00:00:00'\"}}},\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Select Date'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2015-01-01T00:00:00'\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Date\"}},\"Right\":{\"Literal\":{\"Value\":\"datetime'2020-07-31T00:00:00'\"}}}}}}}]}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Select Date'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 108.08,
+          "width": 313.11,
+          "x": 270.20,
+          "y": 4.77,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"3016572b715d7fe918d8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":271.7880794701987,\"y\":133.50993377483445,\"z\":5000,\"width\":313.112582781457,\"height\":90.59602649006622,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Product Subcategories.Sub Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Product Subcategories\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Sub Category\"},\"Name\":\"Maven Cycles Product Subcategories.Sub Category\",\"NativeReferenceName\":\"Sub Category\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Select Subcategory'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 90.60,
+          "width": 313.11,
+          "x": 271.79,
+          "y": 133.51,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"37197d6b5909827378a0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":114.43708609271523,\"y\":200.26490066225165,\"z\":1000,\"width\":55.629139072847686,\"height\":46.092715231788084,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'reset'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}},\"bookmark\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmarkb68ddb7ab573217348c6'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 46.09,
+          "width": 55.63,
+          "x": 114.44,
+          "y": 200.26,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"3bc724e63a1c1e1eec9a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":197.08609271523179,\"z\":3000,\"width\":57.21854304635762,\"height\":54.03973509933775,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'back'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.04,
+          "width": 57.22,
+          "x": 0.00,
+          "y": 197.09,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"415a0724ac813bdf0eaf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1152.317880794702,\"y\":197.08609271523179,\"z\":13000,\"width\":127.15231788079471,\"height\":236.82119205298014,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Regions.Continent\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Regions\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Continent\"},\"Name\":\"Maven Cycles Regions.Continent\",\"NativeReferenceName\":\"Continent\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 236.82,
+          "width": 127.15,
+          "x": 1152.32,
+          "y": 197.09,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"4c5f1a5e5ba08e00f764\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":259.07284768211923,\"z\":9000,\"width\":605.5629139072848,\"height\":459.3377483443709,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Maven Cycles Products.Product New\"},{\"queryRef\":\"Maven Cycles Sales.Total Orders\"},{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"},{\"queryRef\":\"Maven Cycles Sales.Profit Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Products\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Product New\"},\"Name\":\"Maven Cycles Products.Product New\",\"NativeReferenceName\":\"Product New\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Orders\"},\"Name\":\"Maven Cycles Sales.Total Orders\",\"NativeReferenceName\":\"Total Orders\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Profit Margin\"},\"Name\":\"Maven Cycles Sales.Profit Margin\",\"NativeReferenceName\":\"Profit Margin\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Total Revenue\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnFormatting\":[{\"properties\":{\"dataBars\":{\"positiveColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A0D1FF'\"}}}}},\"negativeColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DEEFFF'\"}}}}},\"axisColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#252423'\"}}}}},\"reverseDirection\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"hideText\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},\"selector\":{\"metadata\":\"Maven Cycles Sales.Total Revenue\"}},{\"properties\":{},\"selector\":{\"metadata\":\"Maven Cycles Sales.Profit Margin\"}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"160.16556014124075D\"}}}},\"selector\":{\"metadata\":\"Maven Cycles Sales.Total Revenue\"}}],\"values\":[{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Maven Cycles Sales\"}},\"Property\":\"Profit Margin\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#E5F5F9'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#99D8C9'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"metadata\":\"Maven Cycles Sales.Profit Margin\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'PRODUCT DETAILS'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 459.34,
+          "width": 605.56,
+          "x": 0.00,
+          "y": 259.07,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"50a934a6a47ea1c3963f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1049.0066225165563,\"y\":435.49668874172187,\"z\":6000,\"width\":230.4635761589404,\"height\":271.7880794701987,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Maven Cycles Sales.Profit\"}],\"Category\":[{\"queryRef\":\"Maven Cycles Product Categories.Product Category\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Product Categories\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Profit\"},\"Name\":\"Maven Cycles Sales.Profit\",\"NativeReferenceName\":\"Profit\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Product Category\"},\"Name\":\"Maven Cycles Product Categories.Product Category\",\"NativeReferenceName\":\"Product Category\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Profit\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'outside'\"}}},\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Data value, percent of total'\"}}}}}],\"legend\":[{\"properties\":{\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'BottomCenter'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'PROFIT BY CATEGORY'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 271.79,
+          "width": 230.46,
+          "x": 1049.01,
+          "y": 435.50,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"569967f8154bbc41d718\",\"layouts\":[{\"id\":0,\"position\":{\"x\":605.5629139072848,\"y\":433.9072847682119,\"z\":7000,\"width\":430.7284768211921,\"height\":273.3774834437086,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Maven Cycles Sales.Profit\"}],\"Category\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\",\"active\":true},{\"queryRef\":\"Maven Cycles Calendar.Start of Quarter\"},{\"queryRef\":\"Maven Cycles Calendar.Year\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Profit\"},\"Name\":\"Maven Cycles Sales.Profit\",\"NativeReferenceName\":\"Profit\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Start of Quarter\"},\"Name\":\"Maven Cycles Calendar.Start of Quarter\",\"NativeReferenceName\":\"Start of Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Year\"},\"Name\":\"Maven Cycles Calendar.Year\",\"NativeReferenceName\":\"Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Start of Quarter\"}}},{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Year\"}}}]},\"queryOptions\":{\"keepProjectionOrder\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0.6}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"gridlineThickness\":{\"expr\":{\"Literal\":{\"Value\":\"1L\"}}},\"logAxisScale\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"smallMultiplesLayout\":[{\"properties\":{\"columnCount\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}}}}],\"categoryAxis\":[{\"properties\":{\"gridlineShow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"lineStyles\":[{\"properties\":{\"showMarker\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"y2Axis\":[{\"properties\":{\"secShowAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"subheader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"trend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Trend line 1'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.25}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"40D\"}}},\"style\":{\"expr\":{\"Literal\":{\"Value\":\"'dotted'\"}}}}}],\"forecast\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Forecast 1'\"}}},\"transform\":{\"algorithm\":\"Forecast\",\"parameters\":[{\"Literal\":{\"Value\":\"2D\"},\"Name\":\"Unit\"},{\"Literal\":{\"Value\":\"3D\"},\"Name\":\"ForecastLength\"},{\"Literal\":{\"Value\":\"0D\"},\"Name\":\"IgnoreLast\"},{\"Literal\":{\"Value\":\"0.95D\"},\"Name\":\"ConfidenceLevel\"}]}},\"selector\":{\"metadata\":\"Maven Cycles Sales.Profit\",\"id\":\"1\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'PROFIT BY PERIOD'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 273.38,
+          "width": 430.73,
+          "x": 605.56,
+          "y": 433.91,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"8ada88471e9e07a8d131\",\"layouts\":[{\"id\":0,\"position\":{\"x\":646.8874172185431,\"y\":4.768211920529802,\"z\":12000,\"width\":189.13907284768212,\"height\":128.74172185430464,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"Indicator\":[{\"queryRef\":\"Maven Cycles Sales.Total Revenue\"}],\"TrendLine\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\"}],\"Goal\":[{\"queryRef\":\"Maven Cycles Sales.Last Month Revenue\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Total Revenue\"},\"Name\":\"Maven Cycles Sales.Total Revenue\",\"NativeReferenceName\":\"Total Revenue\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Last Month Revenue\"},\"Name\":\"Maven Cycles Sales.Last Month Revenue\",\"NativeReferenceName\":\"Last Month Revenue\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"indicator\":[{\"properties\":{\"indicatorDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000000D\"}}}}}],\"status\":[{\"properties\":{\"goodColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2CA25F'\"}}}}},\"badColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D64554'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'REVENUE'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 128.74,
+          "width": 189.14,
+          "x": 646.89,
+          "y": 4.77,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"c4f6b1e74eb6c8991a74\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1068.0794701986756,\"y\":3.178807947019868,\"z\":10000,\"width\":190.72847682119206,\"height\":130.33112582781456,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"TrendLine\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\"}],\"Indicator\":[{\"queryRef\":\"Maven Cycles Sales.Profit Margin\"}],\"Goal\":[{\"queryRef\":\"Maven Cycles Sales.Last Month Profit Margin\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Profit Margin\"},\"Name\":\"Maven Cycles Sales.Profit Margin\",\"NativeReferenceName\":\"Profit Margin\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Last Month Profit Margin\"},\"Name\":\"Maven Cycles Sales.Last Month Profit Margin\",\"NativeReferenceName\":\"Last Month Profit Margin\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"indicator\":[{\"properties\":{\"indicatorDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"status\":[{\"properties\":{\"goodColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2CA25F'\"}}}}},\"badColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D64554'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'PROFIT MARGIN'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 130.33,
+          "width": 190.73,
+          "x": 1068.08,
+          "y": 3.18,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"e8ae2e42cabda9a41f96\",\"layouts\":[{\"id\":0,\"position\":{\"x\":57.21854304635762,\"y\":197.08609271523179,\"z\":2000,\"width\":57.21854304635762,\"height\":54.03973509933775,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'information'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmark'\"}}},\"bookmark\":{\"expr\":{\"Literal\":{\"Value\":\"'Bookmarkd7539103eef8926fad95'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 54.04,
+          "width": 57.22,
+          "x": 57.22,
+          "y": 197.09,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f5666c62b04a8d8a3379\",\"layouts\":[{\"id\":0,\"position\":{\"x\":856.6887417218543,\"y\":3.178807947019868,\"z\":11000,\"width\":192.31788079470198,\"height\":130.33112582781456,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"kpi\",\"projections\":{\"TrendLine\":[{\"queryRef\":\"Maven Cycles Calendar.Start of Month\"}],\"Goal\":[{\"queryRef\":\"Maven Cycles Sales.Last Month Profit\"}],\"Indicator\":[{\"queryRef\":\"Maven Cycles Sales.Profit\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Maven Cycles Sales\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"Maven Cycles Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"Start of Month\"},\"Name\":\"Maven Cycles Calendar.Start of Month\",\"NativeReferenceName\":\"Start of Month\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Profit\"},\"Name\":\"Maven Cycles Sales.Profit\",\"NativeReferenceName\":\"Profit\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Last Month Profit\"},\"Name\":\"Maven Cycles Sales.Last Month Profit\",\"NativeReferenceName\":\"Last Month Profit\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"indicator\":[{\"properties\":{\"indicatorDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1000000D\"}}}}}],\"status\":[{\"properties\":{\"goodColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2CA25F'\"}}}}},\"badColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#D64554'\"}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'PROFIT'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 130.33,
+          "width": 192.32,
+          "x": 856.69,
+          "y": 3.18,
+          "z": 11000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "AccessibleDefault"
+}

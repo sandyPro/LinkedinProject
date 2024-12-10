@@ -1,0 +1,138 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 103.33333333333334,
+        "y": 338.33333333333337
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 326,
+            "y": 392
+          },
+          "nodeIndex": "Maven Cycles Products",
+          "nodeLineageTag": "cb2c2ce3-b41e-4e78-9bc0-39ca4c258f6b",
+          "size": {
+            "height": 240,
+            "width": 309
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 812,
+            "y": 722
+          },
+          "nodeIndex": "Maven Cycles Sales",
+          "nodeLineageTag": "c4ef4b4f-a41b-46b8-af6c-2e299008c800",
+          "size": {
+            "height": 294.5,
+            "width": 516.5
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 667,
+            "y": 396
+          },
+          "nodeIndex": "Maven Cycles Calendar",
+          "nodeLineageTag": "4d2e695f-bb12-4490-8f06-bcd606db2bae",
+          "size": {
+            "height": 136.5,
+            "width": 241.5
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 952.5,
+            "y": 393
+          },
+          "nodeIndex": "Maven Cycles Age Group",
+          "nodeLineageTag": "993b7bac-4d38-472f-9445-e5a0af85c89e",
+          "size": {
+            "height": 138,
+            "width": 236.5
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1228,
+            "y": 393.5
+          },
+          "nodeIndex": "Maven Cycles Gender",
+          "nodeLineageTag": "191424ce-2b9e-4301-bed4-6b7dfbad895c",
+          "size": {
+            "height": 138,
+            "width": 239
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Maven Cycles Product Categories",
+          "nodeLineageTag": "da77e810-7987-44aa-ab2b-3ecab098c137",
+          "size": {
+            "height": 136,
+            "width": 328
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1500.5,
+            "y": 391.5
+          },
+          "nodeIndex": "Maven Cycles Regions",
+          "nodeLineageTag": "e2a6dd42-fa01-4a68-b9ff-5effd5012312",
+          "size": {
+            "height": 226.5,
+            "width": 246.5
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 156,
+            "y": 189
+          },
+          "nodeIndex": "Maven Cycles Product Subcategories",
+          "nodeLineageTag": "f0b2c208-72df-43ba-8b50-1f883102d635",
+          "size": {
+            "height": 152,
+            "width": 336
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1797,
+            "y": 408.25
+          },
+          "nodeIndex": "Top 10 Products",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 60,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
